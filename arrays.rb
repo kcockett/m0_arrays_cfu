@@ -41,4 +41,11 @@ puts "**Use the .unshift method", my_strings, my_integers, my_floats, my_boolean
 # In this example, displaying my_floats array at index 3 will actually
 # return '4.4', not '3.3'
 
-puts my_floats[3]
+puts "Show my_floats at index 3",my_floats[3]
+
+# The .shuffle method can display an array with shuffled content without
+# changing the index order in the array
+
+puts "**Shuffle and display each array", my_strings.shuffle, my_integers.shuffle, my_floats.shuffle, my_booleans.shuffle
+
+puts "** But the arrays are unaltered", my_strings, my_integers, my_floats, my_booleans
