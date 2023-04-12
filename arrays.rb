@@ -36,3 +36,9 @@ my_floats.unshift(1.1)
 my_booleans.unshift(true)
 
 puts "**Use the .unshift method", my_strings, my_integers, my_floats, my_booleans
+
+# Index positions are numbered starting with 0 at the beginning of arrays
+# In this example, displaying my_floats array at index 3 will actually
+# return '4.4', not '3.3'
+
+puts my_floats[3]
